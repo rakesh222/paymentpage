@@ -1,0 +1,108 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+html,body{
+  font-family: 'Red Hat Display', sans-serif;
+}
+h2 {
+font-size: 24px;
+font-weight: 600;
+}
+body{
+  background-image: url('images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+.box{
+  width: 40%;
+  height: 90vh;
+  margin:20px auto;
+}
+.card-details {
+float: left;
+padding: 0px 0px 0px 8px;
+}
+
+.plan-change{
+ float: right;
+}
+img.music-icon {
+float: left;
+}
+.main-card {
+width: 80%;
+margin: 0 auto;
+background: hsl(225, 100%, 98%);
+height: 70px;
+border-radius: 8px;
+}
+.card {
+padding: 11px 18px 0px 18px;
+}
+.plan-change{
+padding: 11px 0px 0px 0px;
+}
+.texts {
+width: 80%;
+margin: 0 auto;
+}
+.texts p{
+width: 89%;
+text-align: center;
+margin: 0 auto;
+padding: 0px 0px 10px 0px;
+}
+button.btn.btn-primary {
+width: 100%;
+margin: 30px 0px 0px 0px;
+background: hsl(245, 75%, 52%);
+
+}
+button.btn.btn-primary:hover{
+background-color:hsl(223, 47%, 23%);
+}
+button.btn.btn-secondary {
+width: 100%;
+margin: 20px 0px 0px 0px;
+background:#ffffff;
+outline: none;
+
+}
+span{
+font-weight: 700;
+padding: 0px 0px 0px 6px;
+}
+.section-two {
+width: 100%;
+height: 60vh;
+background: #ffffff;
+margin: -19px 0px 0px 0px;
+padding: 20px 0px 0px 0px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+img.main-image {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+@media screen and (min-width:320px) and (max-width:768px){
+.box {
+width: 100%;
+margin:20px auto;
+height: 80vh;
+}
+.texts {
+width: 100%;
+margin: 0 auto;
+}
+.card {
+padding: 10px 5px 0px 5px;
+}
+.main-card {
+width: 90%;
+margin: 0 auto;
+background: hsl(225, 100%, 98%);
+height: 68px;
+border-radius: 8px;
+}
+}
